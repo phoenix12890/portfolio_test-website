@@ -1,0 +1,40 @@
+*{
+	box-sizing:none;
+	padding:none;
+}
+body{
+	background-color:#2f292b;
+}
+h1{
+	font-family: "Lemon", sans-serif;
+	color:#fff;
+}
+p{
+	font-family: "Montserrat",sans-serif;
+	font-size:1.5rem;
+	color:#fff;
+}
+i{
+	opacity:0.5;
+	padding-right:3rem;
+	text-shadow:0.2rem 0.2rem 12px #fff;
+}
+i:hover{
+	cursor:pointer;
+}
+.main{
+	padding-top:10rem;
+	padding-bottom:15rem;
+	text-align:center;
+	height: 100%;
+	background-image: url("blur.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-shadow:0.2rem 0.2rem 10px #000;
+}
+.footer{
+	background-color:#2f292b;
+	padding-top:5rem;
+	padding-bottom:10rem;
+}

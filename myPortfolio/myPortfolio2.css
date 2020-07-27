@@ -1,0 +1,144 @@
+*{
+	box-sizing:none;
+	padding:none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+	font-family: "Cardo","Times New Roman",Times,serif;
+}
+h1,h2,h3,h4,h5{
+	font-family: "Montserrat",sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+	letter-spacing:0.5rem;
+}
+hr{
+	width:15%;
+	float:left;
+	border-top:1px solid black;
+}
+.intro{
+	position:relative;
+	width:100%;
+	height:100%;
+	color:#fff;
+	background-color:#111;
+	min-height:600px;
+	padding:0;
+	background-size:cover;
+	background-position:center center;
+	overflow:hidden;
+	background-attachment:fixed;
+}
+.intro-text{
+	z-index:10;
+	color:white;
+	padding-top:22.3rem;
+	padding-bottom:22.3rem;
+}
+/*.content{
+	position:relative;
+	width:100%;
+	top:50%;
+	-webkit-transform:translate(0, -50%);
+	transform:translate(0, -50%);
+	-webkit-transition:all 0.3s;
+	transition:all 0.3s;
+	z-index:10
+}*/
+.intro p{
+	font-size:1.35rem;
+	font-style:italic;
+}
+.intro h1{
+	font-weight:bold;
+	font-size:2.8rem;
+	letter-spacing:0.8rem;
+}
+.overlay{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	background:#000;
+	z-index:2;
+	opacity:0.6
+}
+.header{
+	background-color:rgba(255,255,255,1);
+}
+/*.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color:#fff;
+}*/
+.about{
+	padding-top:8rem;
+	padding-bottom:8rem;
+}
+.services{
+	background-color:rgba(0,0,0,0.1);
+	padding-top:8rem;
+	padding-bottom:8rem;
+}
+.services p{
+	font-family: "Cardo","Times New Roman",Times,serif;
+}
+.textpage{
+	background-color:rgba(0,0,0,0.8);
+	color:white;
+	padding-top:8rem;
+	padding-bottom:8rem;
+}
+.textpage p{
+	font-family: "Cardo","Times New Roman",Times,serif;
+}
+.textpage hr{
+	border:1px solid white;
+}
+.portfolio{
+	padding-top:8rem;
+	padding-bottom:8rem;
+}
+.portfolio p{
+	font-family: "Cardo","Times New Roman",Times,serif;
+}
+.box{
+	margin-right:0.5rem;
+	margin-bottom:2rem;
+}
+.box:hover{
+	transition:0.4s;
+	box-shadow:0.9rem 0.9rem 2rem rgba(0,0,0,0.5);
+}
+img{
+      filter: gray; 
+      -webkit-filter: grayscale(1); 
+      -webkit-transition: all .8s ease-in-out;  
+}
+
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+.contact{
+	padding-top:8rem;
+	padding-bottom:8rem;
+}
+.contact p,label{
+	font-family: "Cardo","Times New Roman",Times,serif;
+}
+.text-center{
+	border:black;
+}
+.social{
+	color:black;
+}
+i{
+	margin:1rem 2rem 1rem 0;
+}
